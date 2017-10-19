@@ -8,7 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2834903F20EB586EA5021414 /* Pods_Pixel_CityUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FC91AC667FB7FDABAEFBC0F /* Pods_Pixel_CityUITests.framework */; };
-		406F90C11F95A87300320BD5 /* SecureConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406F90C01F95A87300320BD5 /* SecureConstants.swift */; };
+		402EB9631F98B55D000667EC /* SecureConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402EB9621F98B55D000667EC /* SecureConstants.swift */; };
+		402EB9651F98B8B8000667EC /* PopVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402EB9641F98B8B8000667EC /* PopVC.swift */; };
 		408B25CE1F93BA23009637AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408B25CD1F93BA23009637AB /* AppDelegate.swift */; };
 		408B25D01F93BA23009637AB /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408B25CF1F93BA23009637AB /* MapVC.swift */; };
 		408B25D31F93BA23009637AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 408B25D11F93BA23009637AB /* Main.storyboard */; };
@@ -32,7 +33,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		406F90C01F95A87300320BD5 /* SecureConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureConstants.swift; sourceTree = "<group>"; };
+		402EB9621F98B55D000667EC /* SecureConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureConstants.swift; sourceTree = "<group>"; };
+		402EB9641F98B8B8000667EC /* PopVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopVC.swift; sourceTree = "<group>"; };
 		408B25CA1F93BA23009637AB /* Pixel City.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pixel City.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		408B25CD1F93BA23009637AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		408B25CF1F93BA23009637AB /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				408B25CF1F93BA23009637AB /* MapVC.swift */,
+				402EB9641F98B8B8000667EC /* PopVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -155,7 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				408B25F61F944CE3009637AB /* Constants.swift */,
-				406F90C01F95A87300320BD5 /* SecureConstants.swift */,
+				402EB9621F98B55D000667EC /* SecureConstants.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -384,9 +387,10 @@
 			files = (
 				408B25F71F944CE3009637AB /* Constants.swift in Sources */,
 				408B25F51F94172A009637AB /* PhotoCell.swift in Sources */,
+				402EB9651F98B8B8000667EC /* PopVC.swift in Sources */,
 				408B25D01F93BA23009637AB /* MapVC.swift in Sources */,
 				408B25F31F93F21C009637AB /* DroppablePin.swift in Sources */,
-				406F90C11F95A87300320BD5 /* SecureConstants.swift in Sources */,
+				402EB9631F98B55D000667EC /* SecureConstants.swift in Sources */,
 				408B25CE1F93BA23009637AB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

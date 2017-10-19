@@ -4,7 +4,7 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -95,6 +95,55 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="117.59999999999999" y="117.39130434782609"/>
+        </scene>
+        <!--PopVC-->
+        <scene sceneID="yd4-p6-kJp">
+            <objects>
+                <viewController storyboardIdentifier="PopVC" id="wLl-U8-9tZ" customClass="PopVC" customModule="Pixel_City" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oMk-1j-Pbh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bUB-Zb-V61">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NNl-0t-INj">
+                                <rect key="frame" x="87.5" y="622" width="200" height="25"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Double-Tap To Dismiss" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7SW-Gx-rem">
+                                        <rect key="frame" x="11.5" y="1" width="177" height="23.5"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="Ozj-uI-ked"/>
+                                    <constraint firstItem="7SW-Gx-rem" firstAttribute="centerX" secondItem="NNl-0t-INj" secondAttribute="centerX" id="YrP-Vi-W8i"/>
+                                    <constraint firstAttribute="height" constant="25" id="fCp-Wc-0HC"/>
+                                    <constraint firstItem="7SW-Gx-rem" firstAttribute="centerY" secondItem="NNl-0t-INj" secondAttribute="centerY" id="zd3-r4-k0e"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="NNl-0t-INj" firstAttribute="centerX" secondItem="oMk-1j-Pbh" secondAttribute="centerX" id="8iJ-Mg-H8Q"/>
+                            <constraint firstItem="bUB-Zb-V61" firstAttribute="bottom" secondItem="Ihq-VO-yiV" secondAttribute="bottom" id="Nr3-PB-NZG"/>
+                            <constraint firstItem="bUB-Zb-V61" firstAttribute="leading" secondItem="Ihq-VO-yiV" secondAttribute="leading" id="OD5-DC-voW"/>
+                            <constraint firstItem="bUB-Zb-V61" firstAttribute="trailing" secondItem="Ihq-VO-yiV" secondAttribute="trailing" id="UJt-8l-Ju5"/>
+                            <constraint firstItem="Ihq-VO-yiV" firstAttribute="bottom" secondItem="NNl-0t-INj" secondAttribute="bottom" constant="20" id="Wuj-xt-ePj"/>
+                            <constraint firstItem="bUB-Zb-V61" firstAttribute="top" secondItem="oMk-1j-Pbh" secondAttribute="top" id="hcn-kO-0HI"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Ihq-VO-yiV"/>
+                    </view>
+                    <connections>
+                        <outlet property="popImgView" destination="bUB-Zb-V61" id="Dxg-dn-0dX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RuC-hv-ekS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="940" y="116.49175412293854"/>
         </scene>
     </scenes>
     <resources>

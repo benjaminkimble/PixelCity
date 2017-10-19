@@ -17,3 +17,6 @@ func flickUrl(key: String, withAnnotation annotation: DroppablePin, andNumberOfP
     debugPrint(url)
     return url
 }
+
+//Identifiers
+let POP_VC = "PopVC"
